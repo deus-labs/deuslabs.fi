@@ -8,7 +8,6 @@ import './index.scss';
 import PageScrollTop from './component/PageScrollTop';
 
 import DarkMainDemo from './dark/MainDemo';
-import error404 from "./elements/error404";
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
@@ -19,11 +18,7 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <PageScrollTop>
                     <Switch>
-                        <Route exact path={`${process.env.PUBLIC_URL}/`} component={DarkMainDemo}/>
-                        
-                        <Route path={`${process.env.PUBLIC_URL}/404`} component={error404}/>
-                        <Route component={error404}/>
-
+                        <Route component={DarkMainDemo}/>
                     </Switch>
                 </PageScrollTop>
             </BrowserRouter>
