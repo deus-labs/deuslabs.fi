@@ -59,7 +59,7 @@ class Footer extends Component {
                           <ul className="social-share social-style--2 d-flex justify-content-start liststyle mt--15">
                             {SocialShare.map((val, i) => (
                               <li key={i}>
-                                <a href={`${val.link}`}>{val.Social}</a>
+                                <a href={`${val.link}`} target="_blank" rel="noopener noreferrer">{val.Social}</a>
                               </li>
                             ))}
                           </ul>
