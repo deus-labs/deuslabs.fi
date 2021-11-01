@@ -41,6 +41,9 @@ html {
     }
     ul.brand-style-2 img {
         // filter: invert(1);
+        object-fit: contain;
+        height: auto !important;
+        width: 200px !important;
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         color: #ffffff;
