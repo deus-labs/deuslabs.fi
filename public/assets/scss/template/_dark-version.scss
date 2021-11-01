@@ -2,6 +2,10 @@
     Color Darker Version  
 ----------------------------*/
 
+html {
+    background-color: #101010;
+}
+
 .active-dark {
     background: #101010;
     [data-overlay="6"]:before,
@@ -36,7 +40,7 @@
         background: #101010;
     }
     ul.brand-style-2 img {
-        filter: invert(1);
+        // filter: invert(1);
     }
     h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
         color: #ffffff;

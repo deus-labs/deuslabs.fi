@@ -66,7 +66,7 @@ class MainDemo extends Component{
                 </div>
                 {/* End Back To Top */}
                 
-                <Footer />
+                <div id="contact-section"><Footer /></div>
                 
             </div>
         )
