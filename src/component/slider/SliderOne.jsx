@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ServiceOne from "../../elements/service/ServiceOne";
 
 class SliderOne extends Component {
   render() {
@@ -15,11 +14,6 @@ class SliderOne extends Component {
                             </div>
                         </div>
                     </div>
-                    {/* Start Service Area */}
-                    <div className="service-wrapper service-white">
-                        <ServiceOne />
-                    </div>
-                    {/* End Service Area */}
                 </div>
             </div> 
             {/* End Single Slide */}

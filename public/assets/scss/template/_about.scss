@@ -148,6 +148,13 @@
 }
 
 .about-wrapper {
+    @media #{$extra-device} {
+        padding-top: 120px;
+    }
+    @media #{$laptop-device} {
+        padding-top: 120px;
+    }
+
     .thumbnail {
         position: relative;
         z-index: 2;
