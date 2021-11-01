@@ -5,12 +5,7 @@ class BrandTwo extends Component{
         return(
             <React.Fragment>
                 <ul className="brand-style-2">
-                    <li>
-                        <a href="https://cosmos.network/" target="_blank" rel="noopener noreferrer">
-                            <img src="/assets/images/brand/cosmos-logo-white.png" alt="cosmos"/>
-                        </a>
-                    </li>
-                    <li>
+                <li>
                         <a href="https://cosmwasm.com/" target="_blank" rel="noopener noreferrer">
                             <img src="/assets/images/brand/cosmwasm-logo-white.png" alt="cosmwasm"/>
                         </a>
@@ -23,6 +18,11 @@ class BrandTwo extends Component{
                     <li>
                         <a href="https://junochain.com/" target="_blank" rel="noopener noreferrer">
                             <img src="/assets/images/brand/juno-logo-white.png" alt="juno"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://cosmos.network/" target="_blank" rel="noopener noreferrer">
+                            <img src="/assets/images/brand/cosmos-logo-white.png" alt="cosmos"/>
                         </a>
                     </li>
                 </ul>

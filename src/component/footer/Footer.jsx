@@ -51,7 +51,7 @@ class Footer extends Component{
 
                                         <div className="col-lg-12">
                                             <div className="copyright-text">
-                                                <p>Copyright © 2021 deuslabs. All Rights Reserved.</p>
+                                                <p>Copyright © 2021 deus labs. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>
