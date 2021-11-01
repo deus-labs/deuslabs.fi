@@ -143,6 +143,13 @@ Footer Styles
                 margin: 0;
                 list-style: none;
                 li {
+                    div {
+                        color: #c6c9d8;
+                        font-size: 16px;
+                        @extend %transition;
+                        opacity: 0.75;
+                        cursor: pointer;
+                    }
                     a {
                         color: #c6c9d8;
                         font-size: 16px;
@@ -150,6 +157,9 @@ Footer Styles
                         opacity: 0.75;
                     }
                     &:hover {
+                        div {
+                            color: $theme-color;
+                        }
                         a {
                             color: $theme-color;
                         }
