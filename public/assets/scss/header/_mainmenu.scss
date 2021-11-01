@@ -12,13 +12,14 @@ Mainmenu Area
             > li {
                 margin: 0 15px;
                 position: relative;
-                > a {
+                > div {
                     @extend %transition;
                     color: #c6c9d8;
                     font-size: 16px;
                     font-weight: 500;
-                    padding: 20px 0;
+                    padding: 10px 0;
                     display: inline-block;
+                    cursor: pointer;
                 }
                 > ul {
                     &.submenu {
@@ -38,7 +39,7 @@ Mainmenu Area
                         padding: 12px 0;
                         border-radius: 4px;
                         li {
-                            a {
+                            div {
                                 font-size: 16px;
                                 font-weight: 500;
                                 padding: 5px 20px;
@@ -50,7 +51,7 @@ Mainmenu Area
                                 @extend %transition;
                             }
                             &:hover {
-                                a {
+                                div {
                                     color: $theme-color;
                                     background: rgba(249, 0, 77, 0.07);
                                 }
@@ -68,7 +69,7 @@ Mainmenu Area
                 }
 
                 &:hover {
-                    > a {
+                    > div {
                         color: $theme-color;
                     }
                 }
@@ -98,11 +99,11 @@ Mainmenu Area
             &.mainmenu {
                 @extend %liststyle;
                 > li {
-                    > a {
+                    > div {
                         color: #ffffff;
                     }
                     &:hover {
-                        > a {
+                        > div {
                             color: rgba(255,255,255,0.6);
                             @media #{$md-layout} {
                                 color: $theme-color;
@@ -124,11 +125,11 @@ Mainmenu Area
             &.mainmenu {
                 @extend %liststyle;
                 > li {
-                    > a {
+                    > div {
                         color: rgba(29, 29, 36, 1);
                     }
                     &:hover {
-                        > a {
+                        > div {
                             color: $theme-color;
                         }
                     }

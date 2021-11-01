@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
 import { FiX , FiMenu } from "react-icons/fi";
 
 
@@ -23,6 +22,20 @@ class Header extends Component{
         document.querySelector('.header-wrapper').classList.remove('menu-open');
     }
 
+    aboutOnClick = (e) => {
+        e.preventDefault()
+        document.getElementById("about-section").scrollIntoView();
+    }
+
+    servicesOnClick = (e) => {
+        e.preventDefault()
+        document.getElementById("services-section").scrollIntoView();
+    }
+
+    contactOnClick = (e) => {
+        e.preventDefault()
+        document.getElementById("contact-section").scrollIntoView();
+    }
 
     render(){
         var elements = document.querySelectorAll('.has-droupdown > a');
@@ -49,11 +62,11 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li><a href="#about-section">About</a></li>
+                                <li><div onClick={this.aboutOnClick}>About</div></li>
 
-                                <li><a href="#services">Services</a></li>
+                                <li><div onClick={this.servicesOnClick}>Services</div></li>
 
-                                <li><a href="/contact">Contact</a></li>
+                                <li><div onClick={this.contactOnClick}>Contact</div></li>
                             </ul>
                         </nav>
                         {/* <div className="header-btn">
