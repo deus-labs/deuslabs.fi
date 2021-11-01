@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+        description = `We are deuslabs. deuslabs was formed by talented individuals with varied backgrounds intersecting tech, economy, art, and a combination thereof. We believe blockchain technology will not only revolutionise the world but also our minds: To create things of incredible importance and value, to expand our ability to achieve so. We devoted our minds to realizing these dreams.`;
         return(
             <React.Fragment>
                 <div className="about-wrapper">

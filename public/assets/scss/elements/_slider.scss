@@ -826,6 +826,11 @@ Custom Animation
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
+
+    &.custom-title {
+        -webkit-text-fill-color: white;
+        margin-bottom: 0px !important;
+    }
 }
 
 .thumbnail img {
