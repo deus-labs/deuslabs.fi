@@ -82,6 +82,7 @@ Slider Default Style
     }
     &.slide-style-1 {
         .inner {
+            width: 100%;
             // padding-top: 100px;
             @media #{$sm-layout} {
                 padding-top: 70px;

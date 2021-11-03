@@ -154,5 +154,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "typewriter-effect": "^2.18.2"
   }
 }
