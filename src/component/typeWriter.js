@@ -12,11 +12,8 @@ const TypeWriterComponent = () => {
         .deleteChars(6)
         .typeString('Society')
         .pauseFor(1500)
-        .deleteChars(21)
-        .typeString('o</br><span class="custom-title">Impact</span>')
-        .pauseFor(1500)
-        .deleteChars(10)
-        .typeString('.')
+        .deleteChars(28)
+        .typeString('dl.')
         .pauseFor(1500)
         .start()
     }
@@ -24,7 +21,7 @@ const TypeWriterComponent = () => {
 
     return (
         <TypeWriter
-            options={{ loop: true, autoStart: true, delay: 90, deleteSpeed: 40 }}
+            options={{ loop: true, autoStart: true, delay: 60, deleteSpeed: 40 }}
             onInit={handler}
         />
     )

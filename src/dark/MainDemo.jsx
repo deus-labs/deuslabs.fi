@@ -40,11 +40,11 @@ class MainDemo extends Component{
 
 
                 {/* Start CounterUp Area */}
-                <div className="rn-counterup-area pt--25 pb--110 bg_color--1">
+                {/* <div className="rn-counterup-area pt--25 pb--110 bg_color--1">
                     <div className="container">
                         <CounterOne />
                     </div>
-                </div>
+                </div> */}
                 {/* End CounterUp Area */}
 
                 {/* Start Brand Area */}
