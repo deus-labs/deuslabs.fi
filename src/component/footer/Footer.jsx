@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { FaTwitter, FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaGithub, FaLinkedinIn, FaTelegram } from "react-icons/fa";
 
 const SocialShare = [
   { Social: <FaGithub />, link: "https://github.com/deus-labs" },
   { Social: <FaTwitter />, link: "https://twitter.com/deuslabs" },
+  { Social: <FaTelegram />, link: "https://t.me/deuslabs" },
   // {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
   // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
 ];
@@ -28,21 +29,6 @@ class Footer extends Component {
               <div className="col-lg-12">
                 <div className="footer-right" data-black-overlay="6">
                   <div className="row">
-                    {/* Start Single Widget  */}
-                    <div className="col-lg-6 col-sm-6 col-12">
-                      <div className="footer-link">
-                        <h4>Quick Links</h4>
-                        <ul className="ft-link">
-                          <li>
-                            <div onClick={this.aboutOnClick}>About</div>
-                          </li>
-                          <li>
-                            <div onClick={this.servicesOnClick}>Services</div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    {/* End Single Widget  */}
                     {/* Start Single Widget  */}
                     <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
                       <div className="footer-link">
