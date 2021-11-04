@@ -5,14 +5,12 @@ const TypeWriterComponent = () => {
 
     const handler = (typewriter) => {
         typewriter
-        .typeString('Building the </br><span class="custom-title">Interchain</span></br>')
-        .pauseFor(1500)
-        .typeString('Future')
-        .pauseFor(1500)
+        .typeString('Building </br><span class="custom-title">Interchain</span></br>Future')
+        .pauseFor(1000)
         .deleteChars(6)
-        .typeString('Community')
+        .typeString('Communities')
         .pauseFor(1500)
-        .deleteChars(30)
+        .deleteChars(28)
         .typeString('dl.')
         .pauseFor(1500)
         .start()

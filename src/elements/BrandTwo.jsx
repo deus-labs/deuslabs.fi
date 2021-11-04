@@ -13,7 +13,7 @@ class BrandTwo extends Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span style={{ width: "max-content", fontSize: 22 }}>
+                <span style={{ width: "max-content", fontSize: 22, color: 'rgba(198,201,216,0.75)' }}>
                   Member of InterWasm
                 </span>
               </a>
