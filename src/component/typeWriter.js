@@ -10,7 +10,7 @@ const TypeWriterComponent = () => {
         .typeString('Future')
         .pauseFor(1500)
         .deleteChars(6)
-        .typeString('Society')
+        .typeString('Community')
         .pauseFor(1500)
         .deleteChars(28)
         .typeString('dl.')

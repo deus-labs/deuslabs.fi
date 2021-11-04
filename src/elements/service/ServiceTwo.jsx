@@ -22,6 +22,18 @@ const ServiceList = [
       "We provide validator services, mainly focused on networks built using Cosmos SDK. We have skilled engineers monitoring our nodes 7/24, completing scheduled upgrades, recovering from emergencies or providing hands-on support should the network need it.",
   },
   {
+    icon: <FiCodesandbox />,
+    title: "NFT",
+    description:
+    "We develop and implement innovative NFT concepts that allow provably fair ownership and safe transfer of value; enabling a unique and memorable experience to creators and collectors as pioneers of value generation.",
+  },
+  {
+    icon: <FiAperture />,
+    title: "DAO",
+    description:
+    "Designing, building and participating in distributed decision-making systems is one area of our expertise, as well as our passion.",
+  },
+  {
     icon: <FiUsers />,
     title: "Consultancy",
     description:
@@ -32,18 +44,6 @@ const ServiceList = [
     title: "Know-How",
     description:
       "We pride ourselves on procedural, conceptual and technical knowledge we acquired by working on and with cutting-edge distributed ledger technology, with some of them since their inception.",
-  },
-  {
-    icon: <FiAperture />,
-    title: "DAO",
-    description:
-      "Designing, building and participating in distributed decision-making systems is one area of our expertise, as well as our passion.",
-  },
-  {
-    icon: <FiCodesandbox />,
-    title: "NFT",
-    description:
-      "We develop and implement innovative NFT concepts that allow provably fair ownership and safe transfer of value; enabling a unique and memorable experience to creators and collectors as pioneers of value generation.",
   },
 ];
 

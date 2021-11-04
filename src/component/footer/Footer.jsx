@@ -28,9 +28,9 @@ class Footer extends Component {
             <div className="row align-items-end row--0">
               <div className="col-lg-12">
                 <div className="footer-right" data-black-overlay="6">
-                  <div className="row">
+                  <div className="row justify-content-center">
                     {/* Start Single Widget  */}
-                    <div className="col-lg-6 col-sm-6 col-12 mt_mobile--30">
+                    <div className="col-lg-12 col-sm-12 col-12 mt_mobile--30">
                       <div className="footer-link">
                         <h4>Contact Us</h4>
                         <ul className="ft-link">

@@ -10,7 +10,7 @@ class About extends Component {
               <div className="col-lg-10 col-md-12">
                 <div className="about-inner inner">
                   <div className="section-title">
-                    <h2 className="title">Who are we?</h2>
+                    <h2 className="title">Who we are</h2>
                     <p className="description">
                       We are deus labs. Our organization was formed by talented
                       individuals with varied backgrounds intersecting tech,
