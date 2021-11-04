@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "deuslabs.fi/static/css/main.1a14b79f.chunk.css",
+    "main.js": "deuslabs.fi/static/js/main.0206a26c.chunk.js",
+    "main.js.map": "deuslabs.fi/static/js/main.0206a26c.chunk.js.map",
+    "runtime~main.js": "deuslabs.fi/static/js/runtime~main.687e541f.js",
+    "runtime~main.js.map": "deuslabs.fi/static/js/runtime~main.687e541f.js.map",
+    "static/css/2.450f7732.chunk.css": "deuslabs.fi/static/css/2.450f7732.chunk.css",
+    "static/js/2.00538d00.chunk.js": "deuslabs.fi/static/js/2.00538d00.chunk.js",
+    "static/js/2.00538d00.chunk.js.map": "deuslabs.fi/static/js/2.00538d00.chunk.js.map",
+    "index.html": "deuslabs.fi/index.html",
+    "precache-manifest.87e2c8cfcdffa877da50bdf7ccff5391.js": "deuslabs.fi/precache-manifest.87e2c8cfcdffa877da50bdf7ccff5391.js",
+    "service-worker.js": "deuslabs.fi/service-worker.js",
+    "static/css/2.450f7732.chunk.css.map": "deuslabs.fi/static/css/2.450f7732.chunk.css.map",
+    "static/css/main.1a14b79f.chunk.css.map": "deuslabs.fi/static/css/main.1a14b79f.chunk.css.map",
+    "static/media/index.scss": "deuslabs.fi/static/media/slick.f97e3bbf.svg"
+  }
+}

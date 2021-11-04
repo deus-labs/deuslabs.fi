@@ -1,0 +1,41 @@
+.Typewriter {
+    font-size: 125px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 130px;
+    @media #{$laptop-device} {
+        font-size: 100px;
+        line-height: 112px;
+    }
+    @media #{$lg-layout} {
+        font-size: 90px;
+        line-height: 103px;
+    }
+    @media #{$md-layout} {
+        font-size: 70px;
+        line-height: 82px;
+        margin-bottom: 0;
+        height: 246px;
+    }
+    @media #{$sm-layout} {
+        font-size: 50px;
+        line-height: 70px;
+        margin-bottom: 0;
+        height: 210px;
+    }
+    @media #{$large-mobile} {
+        font-size: 35px;
+        line-height: 50px;
+        margin-bottom: 20px;
+        height: 150px;
+    }
+
+    .Typewriter__wrapper {
+        span.custom-title {
+            -webkit-text-fill-color: white;
+            margin-bottom: 0px !important;
+        }
+    }
+}
