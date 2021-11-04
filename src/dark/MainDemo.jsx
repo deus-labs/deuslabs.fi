@@ -6,7 +6,7 @@ import Footer from "../component/footer/Footer";
 
 import SliderOne from "../component/slider/SliderOne";
 import ServiceTwo from "../elements/service/ServiceTwo";
-import CounterOne from "../elements/counters/CounterOne";
+// import CounterOne from "../elements/counters/CounterOne";
 import About from "../component/HomeLayout/homeOne/About";
 import BrandTwo from "../elements/BrandTwo";
 import Helmet from "../component/common/Helmet";

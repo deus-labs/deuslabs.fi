@@ -1,5 +1,5 @@
 import React, { Component , Fragment } from "react";
-import CountUp from 'react-countup';
+// import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
 
