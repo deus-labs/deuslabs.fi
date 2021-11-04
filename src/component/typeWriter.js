@@ -9,10 +9,10 @@ const TypeWriterComponent = () => {
         .pauseFor(1000)
         .deleteChars(6)
         .typeString('Communities')
-        .pauseFor(1500)
+        .pauseFor(1000)
         .deleteChars(28)
         .typeString('dl.')
-        .pauseFor(1500)
+        .pauseFor(1000)
         .start()
     }
 
