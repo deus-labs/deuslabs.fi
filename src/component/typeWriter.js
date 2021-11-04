@@ -12,7 +12,7 @@ const TypeWriterComponent = () => {
         .deleteChars(6)
         .typeString('Community')
         .pauseFor(1500)
-        .deleteChars(28)
+        .deleteChars(30)
         .typeString('dl.')
         .pauseFor(1500)
         .start()
