@@ -13,7 +13,7 @@ const ServiceList = [
     icon: <FiShare2 />,
     title: "Developer Relations",
     description:
-      "Our team has been a prominent contributor to the CosmWasm ecosystem, commited to the improvement of the developer experience. As part of InterWasm DAO we provide support systems, documentation, workshops, and events; continuing our work and ensuring healthy growth for the broader ecosystem.",
+      "Our team has been a prominent contributor to the CosmWasm ecosystem, commited to the improvement of the developer experience. As part of InterWasm we provide support systems, documentation, workshops, and events; continuing our work and ensuring healthy growth for the broader ecosystem.",
   },
   {
     icon: <FiCpu />,

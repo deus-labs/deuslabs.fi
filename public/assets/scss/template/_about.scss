@@ -148,11 +148,16 @@
 }
 
 .about-wrapper {
-    @media #{$extra-device} {
-        padding-top: 120px;
+    padding-top: 120px;
+
+    @media #{$lg-layout} {
+        padding-top: 0px;
     }
-    @media #{$laptop-device} {
-        padding-top: 120px;
+    @media #{$md-layout} {
+        padding-top: 0px;
+    }
+    @media #{$sm-layout} {
+        padding-top: 0px;
     }
 
     .thumbnail {
